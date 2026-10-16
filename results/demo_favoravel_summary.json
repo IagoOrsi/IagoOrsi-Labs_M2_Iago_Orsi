@@ -1,0 +1,28 @@
+{
+  "connectivity_final": 8,
+  "initial_components_connectivity4": 3,
+  "initial_components_connectivity8": 3,
+  "min_area": 20,
+  "morphology": {
+    "order": [
+      "opening",
+      "closing"
+    ],
+    "shape": "ellipse",
+    "kernel": [
+      3,
+      3
+    ],
+    "iterations": 1
+  },
+  "initial": {
+    "components_raw": 3,
+    "foreground_pixels": 11831
+  },
+  "final": {
+    "components_raw": 3,
+    "components_kept": 3,
+    "foreground_pixels": 11831,
+    "foreground_pixels_kept": 11831
+  }
+}
